@@ -37,8 +37,8 @@ public class SpringcoreApplication implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-		// employee.working();
-		// System.out.println("Today is " + date);
+		employee.working();
+		System.out.println("Today is " + date);
 		System.out.println(book1);
 		System.out.println(book2);
 		cust.checkBook();
